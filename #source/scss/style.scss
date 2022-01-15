@@ -1,0 +1,234 @@
+@import "nullstyle.scss";
+
+/*animate*/
+%animate{
+   &:hover .animate{
+      width: 65px;
+      transition: 1s;
+      
+   }
+  .animate{
+     margin: 15px 0 15px 5px;
+     width: 0px;
+     height: 2.5px;
+     background-color: red;
+  }
+}
+
+
+
+
+body {
+   box-sizing: border-box;
+   background-color: rgba(243, 243, 243, 0.973) !important  ;
+ } 
+/*Header*/
+.head-top{
+   width: 100%;
+   height: 30px;
+   background-color: #1a1a1a;
+   display: flex;
+   justify-content: space-between;
+   .head-left{
+      padding: 5px;
+      color: white;
+      .img-left{
+         margin-top: -4px;
+      }
+      .sign{
+         font-family: 'Lato', sans-serif;
+      }  
+   }
+   .head-right{
+      display: flex;
+      padding: 5px;
+      width:235px;
+      .log{
+         & a{
+            text-decoration: none;
+         }
+         margin-right: 10px;
+         .team-viewer{
+            font-family: 'Lato', sans-serif;
+            font-weight: 700;
+            color: white;
+         }
+         .team-viewer2{
+            font-family: 'Lato', sans-serif;
+            color: white;
+         }
+         .text-kohler{
+            
+            font-family: 'Lato', sans-serif;
+            font-size: 16px;
+            text-transform: uppercase;
+            font-weight: 700;
+            color: white;
+         }
+      }
+   }
+
+}
+/*Menu*/
+
+.navbar{
+   height: 55px;
+   background-color: #c70101;
+  & a{
+   font-family: 'Lato', sans-serif;
+   font-size: 14px;
+   font-weight: 700;
+   text-transform: uppercase;
+   color: white;
+  }
+.nav-link:hover{
+color: black;
+transition: 0.5s;
+}
+  .d-flex{
+   transition: 3s;
+     color: white;
+     margin-right: 30px;
+   .form-control{
+      display: none;
+   }
+   &:hover .form-control{
+display: block;
+transition:  3s;
+   }
+   &:hover .search{
+      display: none;
+      transition: 3s;
+   }
+  } 
+  .pow{
+     display: inline-block;
+     background-color: black;
+     border-radius: 5px;
+     color: white;
+     padding:5px;
+     font-size: 10px;
+     text-transform:none;
+     .hcl{
+        text-transform: uppercase;
+        font-weight: 700;
+        font-style: 20px;
+     }
+  }
+}
+
+
+/*Карусель*/
+.carousel-fade{
+   width: 100%;
+   height: 600px;
+   .carousel-inner{
+      width: 100%;
+      height: 600px; 
+   }
+   .carousel-caption{
+      margin-bottom: 120px;
+      & h5{
+         font-size: 50px;
+         text-transform: uppercase;
+         font-weight: 700;
+         color: whitesmoke;
+         float: left;
+      }
+   }
+   .cl{
+      margin-bottom: 40px;
+      & h5{
+         font-size: 48px;
+         text-transform: uppercase;
+         font-weight: 700;
+         color: whitesmoke;
+         float: left;
+      }
+   }
+}
+.obsh{
+   width: 100%;
+   height: 2500px;
+}
+.navbar{
+   z-index: 3;
+}
+
+
+/*=========Section №1==========*/
+.section1{ 
+   padding: 25px 45px 25px 45px;
+   display: flex;
+   width: 100%;
+   height: 400px;
+   background-color: rgba(243, 243, 243, 0.973);
+   .link-contsec{
+      display: block;
+   }
+.cont-section{
+   width: 600px;
+   height: 350px;
+   background-color: white;
+   border-radius: 10px;
+   overflow: hidden;
+   transition: all 0.5s;
+   &:hover .img-sec-cont{
+      transition: all 0.5s;
+      width: 320px;
+      height: 380px;
+   }
+   .sec-img{
+      overflow: hidden;
+      .img-sec-cont{
+         margin-left: -11px;
+      }
+   }
+   .sec-cont{
+      padding: 0 15px;
+      & a{
+         text-decoration: none;
+         color: black;
+      }
+   }
+   &:hover {
+      cursor: pointer;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19),
+        0 6px 20px 0 rgba(9, 34, 253, 0.19);
+      transition: all 0.5s;
+    }
+  @extend %animate;
+  .sec-tittle{
+     h1{
+        font-size: 25px;
+        font-family: 'Lato', sans-serif;
+        text-transform: uppercase;
+        font-weight: 700;
+       
+     }
+  }
+  .sec-description{
+   font-size: 15px;
+   font-family: 'Lato', sans-serif;
+  }
+  .share{
+     width: 100%;
+     display: inline-block;
+     margin-top: 115px;
+     .text-sh{
+        padding: 5px;
+     }
+     .icon-sh{
+        font-weight: 700;
+     }
+     .icon-sh2{
+      display: inline-block;
+      float:right;
+      padding-right: 10px;
+   }
+  }
+}
+
+}
+
+/*=========Section №2==========*/

@@ -1,0 +1,262 @@
+@charset "UTF-8";
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0; }
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+:focus, :active {
+  outline: none; }
+
+a:focus, a:active {
+  outline: none; }
+
+nav, footer, header, aside {
+  display: block; }
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+input, button, textarea {
+  font-family: inherit; }
+
+input::-ms-clear {
+  display: none; }
+
+button {
+  cursor: pointer; }
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0; }
+
+a, a:visited {
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: none; }
+
+ul li {
+  list-style: none; }
+
+img {
+  vertical-align: top; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400; }
+
+/*--------------------*/
+/*animate*/
+.section1 .cont-section:hover .animate {
+  width: 65px;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s; }
+
+.section1 .cont-section .animate {
+  margin: 15px 0 15px 5px;
+  width: 0px;
+  height: 2.5px;
+  background-color: red; }
+
+body {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: rgba(243, 243, 243, 0.973) !important; }
+
+/*Header*/
+.head-top {
+  width: 100%;
+  height: 30px;
+  background-color: #1a1a1a;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  .head-top .head-left {
+    padding: 5px;
+    color: white; }
+    .head-top .head-left .img-left {
+      margin-top: -4px; }
+    .head-top .head-left .sign {
+      font-family: 'Lato', sans-serif; }
+  .head-top .head-right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 5px;
+    width: 235px; }
+    .head-top .head-right .log {
+      margin-right: 10px; }
+      .head-top .head-right .log a {
+        text-decoration: none; }
+      .head-top .head-right .log .team-viewer {
+        font-family: 'Lato', sans-serif;
+        font-weight: 700;
+        color: white; }
+      .head-top .head-right .log .team-viewer2 {
+        font-family: 'Lato', sans-serif;
+        color: white; }
+      .head-top .head-right .log .text-kohler {
+        font-family: 'Lato', sans-serif;
+        font-size: 16px;
+        text-transform: uppercase;
+        font-weight: 700;
+        color: white; }
+
+/*Menu*/
+.navbar {
+  height: 55px;
+  background-color: #c70101; }
+  .navbar a {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white; }
+  .navbar .nav-link:hover {
+    color: black;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s; }
+  .navbar .d-flex {
+    -webkit-transition: 3s;
+    -o-transition: 3s;
+    transition: 3s;
+    color: white;
+    margin-right: 30px; }
+    .navbar .d-flex .form-control {
+      display: none; }
+    .navbar .d-flex:hover .form-control {
+      display: block;
+      -webkit-transition: 3s;
+      -o-transition: 3s;
+      transition: 3s; }
+    .navbar .d-flex:hover .search {
+      display: none;
+      -webkit-transition: 3s;
+      -o-transition: 3s;
+      transition: 3s; }
+  .navbar .pow {
+    display: inline-block;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    font-size: 10px;
+    text-transform: none; }
+    .navbar .pow .hcl {
+      text-transform: uppercase;
+      font-weight: 700;
+      font-style: 20px; }
+
+/*Карусель*/
+.carousel-fade {
+  width: 100%;
+  height: 600px; }
+  .carousel-fade .carousel-inner {
+    width: 100%;
+    height: 600px; }
+  .carousel-fade .carousel-caption {
+    margin-bottom: 120px; }
+    .carousel-fade .carousel-caption h5 {
+      font-size: 50px;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: whitesmoke;
+      float: left; }
+  .carousel-fade .cl {
+    margin-bottom: 40px; }
+    .carousel-fade .cl h5 {
+      font-size: 48px;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: whitesmoke;
+      float: left; }
+
+.obsh {
+  width: 100%;
+  height: 2500px; }
+
+.navbar {
+  z-index: 3; }
+
+/*=========Section №1==========*/
+.section1 {
+  padding: 25px 45px 25px 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 400px;
+  background-color: rgba(243, 243, 243, 0.973); }
+  .section1 .link-contsec {
+    display: block; }
+  .section1 .cont-section {
+    width: 600px;
+    height: 350px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s; }
+    .section1 .cont-section:hover .img-sec-cont {
+      -webkit-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s;
+      width: 320px;
+      height: 380px; }
+    .section1 .cont-section .sec-img {
+      overflow: hidden; }
+      .section1 .cont-section .sec-img .img-sec-cont {
+        margin-left: -11px; }
+    .section1 .cont-section .sec-cont {
+      padding: 0 15px; }
+      .section1 .cont-section .sec-cont a {
+        text-decoration: none;
+        color: black; }
+    .section1 .cont-section:hover {
+      cursor: pointer;
+      -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(9, 34, 253, 0.19);
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(9, 34, 253, 0.19);
+      -webkit-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s; }
+    .section1 .cont-section .sec-tittle h1 {
+      font-size: 25px;
+      font-family: 'Lato', sans-serif;
+      text-transform: uppercase;
+      font-weight: 700; }
+    .section1 .cont-section .sec-description {
+      font-size: 15px;
+      font-family: 'Lato', sans-serif; }
+    .section1 .cont-section .share {
+      width: 100%;
+      display: inline-block;
+      margin-top: 115px; }
+      .section1 .cont-section .share .text-sh {
+        padding: 5px; }
+      .section1 .cont-section .share .icon-sh {
+        font-weight: 700; }
+      .section1 .cont-section .share .icon-sh2 {
+        display: inline-block;
+        float: right;
+        padding-right: 10px; }
+
+/*=========Section №2==========*/
