@@ -14,8 +14,27 @@
      background-color: red;
   }
 }
-
-
+%line{
+   width: 100%;
+   height: 20px;
+    background-color: white;
+    margin: 15px 0 15px 0;
+}
+/*Секция№2*/ 
+//cont
+%sec-2-cont{
+   width: 300px;
+   height: 420px;
+   background-color:white;
+   border-radius: 10px;
+   overflow: hidden;
+   &:hover{
+      cursor: pointer;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19),
+        0 6px 20px 0 rgba(9, 34, 253, 0.19);
+      transition: all 0.5s;
+}
+}
 
 
 body {
@@ -162,7 +181,6 @@ transition:  3s;
    display: flex;
    width: 100%;
    height: 400px;
-   background-color: rgba(243, 243, 243, 0.973);
    .link-contsec{
       display: block;
    }
@@ -232,3 +250,305 @@ transition:  3s;
 }
 
 /*=========Section №2==========*/
+.Section2{
+
+padding: 0 45px 25px 45px;
+width: 100%;
+height: 440px;
+
+.cll{
+   margin: 7px;
+}
+
+.cont2-1{
+   @extend %animate;
+   @extend %sec-2-cont;
+      background-image:url('C:/Users/User/Desktop/Индивидуальный проект/img/trainingcomplex.jpg');
+      background-repeat:no-repeat;
+      background-size:cover;
+      & a{
+         text-decoration:none;
+      }
+
+      .cont2-1-icon{
+         margin-top: 170px;
+         width: 50px;
+         height: 50px;
+         background-image: url('C:/Users/User/Desktop/Индивидуальный проект/fon-icon/icons8-youtube-94.png');
+         background-repeat: no-repeat;
+         background-size:cover;
+      }
+
+      .cont2-1-text{
+      color:white;
+      text-transform: uppercase;
+      
+   }
+   .share{
+ 
+      color:white;
+      .icon-sh2{
+         color:white;
+         float: right;
+      }
+   }
+
+}
+
+.cont2-2{
+   @extend %animate;
+   @extend %sec-2-cont;
+   .animate{
+      margin-top: -10px;
+   }
+      background-image:url("C:/Users/User/Desktop/Индивидуальный проект/img/Old_Trafford_inside_20060726_1.jpg");
+      background-repeat:no-repeat;
+      background-size:100% 150px;
+      & a{
+         text-decoration: none;
+      }
+   .cont2-2-desc{
+      color:black;
+      margin-top: 180px;
+      & h1{
+         font-size: 23px;
+        font-family: 'Lato', sans-serif;
+        text-transform: uppercase;
+        font-weight: 700;
+      }
+      .cont2-2-desc-text{
+         padding:5px;
+         font-size: 15px;
+      }
+   }
+   .share{
+      .icon-sh2{
+         float: right;
+      }
+      padding-top: 55px
+   }
+}
+
+.cont2-3{
+   @extend %animate;
+   @extend %sec-2-cont;
+   .animate{
+      margin-top: -10px;
+   }
+      background-image:url("C:/Users/User/Desktop/Индивидуальный проект/img/reds-duo-ruled-out-of-burnley-game.jpeg");
+      background-repeat:no-repeat;
+      background-size:100% 150px;
+      & a{
+         text-decoration: none;
+      }
+   .cont2-3-desc{
+      color:black;
+      margin-top: 180px;
+      & h1{
+         font-size: 23px;
+        font-family: 'Lato', sans-serif;
+        text-transform: uppercase;
+        font-weight: 700;
+      }
+      .cont2-3-desc-text{
+         padding:5px;
+         font-size: 15px;
+      }
+   }
+   .share{
+      .icon-sh2{
+         float: right;
+      }
+      padding-top: 55px
+   }
+}
+
+.cont2-4{
+   @extend %animate;
+   @extend %sec-2-cont;
+  background-image:url('C:/Users/User/Desktop/Индивидуальный проект/img/tranning.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+  & a{
+   text-decoration:none;
+}
+
+.cont2-4-icon{
+   margin-top: 210px;
+   width: 50px;
+   height: 50px;
+   background-image: url('C:/Users/User/Desktop/Индивидуальный проект/fon-icon/icons8-youtube-94.png');
+   background-repeat: no-repeat;
+   background-size:cover;
+   transition: all 0.5s;
+}
+
+.cont2-4-text{
+color:white;
+text-transform: uppercase;
+
+}
+.share{
+ 
+   color:white;
+   .icon-sh2{
+      color:white;
+      float: right;
+   }
+}
+
+}
+
+}
+
+/*-----line-----*/
+.line{
+   @extend %line;
+}
+
+/*-----section#3----*/
+.Section3{
+
+   padding: 0 45px 25px 45px;
+   width: 100%;
+   height: 400px;
+
+
+   .contsection3-1{
+      @extend %animate;
+      .animate{
+         margin-top: 130px;
+      }
+      .contsection3-1-icon{
+        
+         width: 50px;
+         height: 50px;
+         background-image: url('C:/Users/User/Desktop/Индивидуальный проект/fon-icon/icons8-youtube-94.png');
+         background-repeat: no-repeat;
+         background-size:cover;
+         transition: all 0.5s;
+      }
+      & a{
+         color:white;
+         text-decoration: none;
+         text-transform: uppercase;
+      }
+      width: 600px;
+      height: 340px;
+      background-image:url("C:/Users/User/Desktop/Индивидуальный проект/img/greenwoodA94T6822_20210418510102731640806170462_large.jpg");
+      background-repeat:no-repeat;
+      background-size:cover;
+      border-radius: 10px;
+      &:hover {
+         cursor: pointer;
+         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19),
+           0 6px 20px 0 rgba(9, 34, 253, 0.19);
+         transition: all 0.5s;
+       }
+       .share{
+          color:white;
+          margin-top: 25px;
+         .icon-sh2{
+            float: right;
+         }
+       }
+   }
+.cs3{
+   margin: 13px;
+}
+   .contsection3-2{
+      @extend %animate;
+      .animate{
+         margin-top: 170px;
+      }
+      .contsection3-2-icon{
+        
+         width: 50px;
+         height: 50px;
+         background-image: url('C:/Users/User/Desktop/Индивидуальный проект/fon-icon/icons8-youtube-94.png');
+         background-repeat: no-repeat;
+         background-size:cover;
+         transition: all 0.5s;
+      }
+      & a{
+         color:white;
+         text-decoration: none;
+         text-transform: uppercase;
+      }
+      width: 600px;
+      height: 340px;
+      background-image:url("C:/Users/User/Desktop/Индивидуальный проект/img/Ralf.Rangnick.presser-1.jpg");
+      background-repeat:no-repeat;
+      background-size:cover;
+      border-radius: 10px;
+      &:hover {
+         cursor: pointer;
+         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19),
+           0 6px 20px 0 rgba(9, 34, 253, 0.19);
+         transition: all 0.5s;
+       }
+       .share{
+          color:white;
+          margin-top: 25px;
+         .icon-sh2{
+            float: right;
+         }
+       }
+   }
+
+}
+
+/*-----section#4----*/
+.Section4{
+   padding: 0 45px 25px 45px;
+width: 100%;
+height: 440px;
+
+.sc4{
+   margin: 7px;
+}
+
+.cont4-1{
+   @extend %animate;
+   @extend %sec-2-cont;
+      background-image:url("C:/Users/User/Desktop/Индивидуальный проект/img/1434.jpg");
+      background-repeat:no-repeat;
+      background-size:300px 420px;
+      & a{
+         text-decoration:none;
+      }
+
+      .cont4-1-icon{
+         margin-top: 170px;
+         width: 50px;
+         height: 50px;
+         background-image: url('C:/Users/User/Desktop/Индивидуальный проект/fon-icon/icons8-youtube-94.png');
+         background-repeat: no-repeat;
+         background-size:cover;
+      }
+
+      .cont4-1-text{
+      color:white;
+      text-transform: uppercase;
+      
+   }
+   .share{
+ 
+      color:white;
+      .icon-sh2{
+         color:white;
+         float: right;
+      }
+   }
+
+}
+.cont4-2{
+   @extend %sec-2-cont;
+}
+.cont4-3{
+   @extend %sec-2-cont;
+}
+.cont4-4{
+   @extend %sec-2-cont;
+}
+}

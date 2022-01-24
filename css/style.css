@@ -60,17 +60,38 @@ h1, h2, h3, h4, h5, h6 {
 
 /*--------------------*/
 /*animate*/
-.section1 .cont-section:hover .animate {
+.section1 .cont-section:hover .animate, .Section2 .cont2-1:hover .animate, .Section2 .cont2-2:hover .animate, .Section2 .cont2-3:hover .animate, .Section2 .cont2-4:hover .animate, .Section3 .contsection3-1:hover .animate, .Section3 .contsection3-2:hover .animate, .Section4 .cont4-1:hover .animate {
   width: 65px;
   -webkit-transition: 1s;
   -o-transition: 1s;
   transition: 1s; }
 
-.section1 .cont-section .animate {
+.section1 .cont-section .animate, .Section2 .cont2-1 .animate, .Section2 .cont2-2 .animate, .Section2 .cont2-3 .animate, .Section2 .cont2-4 .animate, .Section3 .contsection3-1 .animate, .Section3 .contsection3-2 .animate, .Section4 .cont4-1 .animate {
   margin: 15px 0 15px 5px;
   width: 0px;
   height: 2.5px;
   background-color: red; }
+
+.line {
+  width: 100%;
+  height: 20px;
+  background-color: white;
+  margin: 15px 0 15px 0; }
+
+/*Секция№2*/
+.Section2 .cont2-1, .Section2 .cont2-2, .Section2 .cont2-3, .Section2 .cont2-4, .Section4 .cont4-1, .Section4 .cont4-2, .Section4 .cont4-3, .Section4 .cont4-4 {
+  width: 300px;
+  height: 420px;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden; }
+  .Section2 .cont2-1:hover, .Section2 .cont2-2:hover, .Section2 .cont2-3:hover, .Section2 .cont2-4:hover, .Section4 .cont4-1:hover, .Section4 .cont4-2:hover, .Section4 .cont4-3:hover, .Section4 .cont4-4:hover {
+    cursor: pointer;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(9, 34, 253, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(9, 34, 253, 0.19);
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s; }
 
 body {
   -webkit-box-sizing: border-box;
@@ -203,8 +224,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  height: 400px;
-  background-color: rgba(243, 243, 243, 0.973); }
+  height: 400px; }
   .section1 .link-contsec {
     display: block; }
   .section1 .cont-section {
@@ -260,3 +280,206 @@ body {
         padding-right: 10px; }
 
 /*=========Section №2==========*/
+.Section2 {
+  padding: 0 45px 25px 45px;
+  width: 100%;
+  height: 440px; }
+  .Section2 .cll {
+    margin: 7px; }
+  .Section2 .cont2-1 {
+    background-image: url("C:/Users/User/Desktop/Индивидуальный проект/img/trainingcomplex.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; }
+    .Section2 .cont2-1 a {
+      text-decoration: none; }
+    .Section2 .cont2-1 .cont2-1-icon {
+      margin-top: 170px;
+      width: 50px;
+      height: 50px;
+      background-image: url("C:/Users/User/Desktop/Индивидуальный проект/fon-icon/icons8-youtube-94.png");
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .Section2 .cont2-1 .cont2-1-text {
+      color: white;
+      text-transform: uppercase; }
+    .Section2 .cont2-1 .share {
+      color: white; }
+      .Section2 .cont2-1 .share .icon-sh2 {
+        color: white;
+        float: right; }
+  .Section2 .cont2-2 {
+    background-image: url("C:/Users/User/Desktop/Индивидуальный проект/img/Old_Trafford_inside_20060726_1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 150px; }
+    .Section2 .cont2-2 .animate {
+      margin-top: -10px; }
+    .Section2 .cont2-2 a {
+      text-decoration: none; }
+    .Section2 .cont2-2 .cont2-2-desc {
+      color: black;
+      margin-top: 180px; }
+      .Section2 .cont2-2 .cont2-2-desc h1 {
+        font-size: 23px;
+        font-family: 'Lato', sans-serif;
+        text-transform: uppercase;
+        font-weight: 700; }
+      .Section2 .cont2-2 .cont2-2-desc .cont2-2-desc-text {
+        padding: 5px;
+        font-size: 15px; }
+    .Section2 .cont2-2 .share {
+      padding-top: 55px; }
+      .Section2 .cont2-2 .share .icon-sh2 {
+        float: right; }
+  .Section2 .cont2-3 {
+    background-image: url("C:/Users/User/Desktop/Индивидуальный проект/img/reds-duo-ruled-out-of-burnley-game.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 150px; }
+    .Section2 .cont2-3 .animate {
+      margin-top: -10px; }
+    .Section2 .cont2-3 a {
+      text-decoration: none; }
+    .Section2 .cont2-3 .cont2-3-desc {
+      color: black;
+      margin-top: 180px; }
+      .Section2 .cont2-3 .cont2-3-desc h1 {
+        font-size: 23px;
+        font-family: 'Lato', sans-serif;
+        text-transform: uppercase;
+        font-weight: 700; }
+      .Section2 .cont2-3 .cont2-3-desc .cont2-3-desc-text {
+        padding: 5px;
+        font-size: 15px; }
+    .Section2 .cont2-3 .share {
+      padding-top: 55px; }
+      .Section2 .cont2-3 .share .icon-sh2 {
+        float: right; }
+  .Section2 .cont2-4 {
+    background-image: url("C:/Users/User/Desktop/Индивидуальный проект/img/tranning.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; }
+    .Section2 .cont2-4 a {
+      text-decoration: none; }
+    .Section2 .cont2-4 .cont2-4-icon {
+      margin-top: 210px;
+      width: 50px;
+      height: 50px;
+      background-image: url("C:/Users/User/Desktop/Индивидуальный проект/fon-icon/icons8-youtube-94.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      -webkit-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s; }
+    .Section2 .cont2-4 .cont2-4-text {
+      color: white;
+      text-transform: uppercase; }
+    .Section2 .cont2-4 .share {
+      color: white; }
+      .Section2 .cont2-4 .share .icon-sh2 {
+        color: white;
+        float: right; }
+
+/*-----line-----*/
+/*-----section#3----*/
+.Section3 {
+  padding: 0 45px 25px 45px;
+  width: 100%;
+  height: 400px; }
+  .Section3 .contsection3-1 {
+    width: 600px;
+    height: 340px;
+    background-image: url("C:/Users/User/Desktop/Индивидуальный проект/img/greenwoodA94T6822_20210418510102731640806170462_large.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px; }
+    .Section3 .contsection3-1 .animate {
+      margin-top: 130px; }
+    .Section3 .contsection3-1 .contsection3-1-icon {
+      width: 50px;
+      height: 50px;
+      background-image: url("C:/Users/User/Desktop/Индивидуальный проект/fon-icon/icons8-youtube-94.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      -webkit-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s; }
+    .Section3 .contsection3-1 a {
+      color: white;
+      text-decoration: none;
+      text-transform: uppercase; }
+    .Section3 .contsection3-1:hover {
+      cursor: pointer;
+      -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(9, 34, 253, 0.19);
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(9, 34, 253, 0.19);
+      -webkit-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s; }
+    .Section3 .contsection3-1 .share {
+      color: white;
+      margin-top: 25px; }
+      .Section3 .contsection3-1 .share .icon-sh2 {
+        float: right; }
+  .Section3 .cs3 {
+    margin: 13px; }
+  .Section3 .contsection3-2 {
+    width: 600px;
+    height: 340px;
+    background-image: url("C:/Users/User/Desktop/Индивидуальный проект/img/Ralf.Rangnick.presser-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px; }
+    .Section3 .contsection3-2 .animate {
+      margin-top: 170px; }
+    .Section3 .contsection3-2 .contsection3-2-icon {
+      width: 50px;
+      height: 50px;
+      background-image: url("C:/Users/User/Desktop/Индивидуальный проект/fon-icon/icons8-youtube-94.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      -webkit-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s; }
+    .Section3 .contsection3-2 a {
+      color: white;
+      text-decoration: none;
+      text-transform: uppercase; }
+    .Section3 .contsection3-2:hover {
+      cursor: pointer;
+      -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(9, 34, 253, 0.19);
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(9, 34, 253, 0.19);
+      -webkit-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s; }
+    .Section3 .contsection3-2 .share {
+      color: white;
+      margin-top: 25px; }
+      .Section3 .contsection3-2 .share .icon-sh2 {
+        float: right; }
+
+/*-----section#4----*/
+.Section4 {
+  padding: 0 45px 25px 45px;
+  width: 100%;
+  height: 440px; }
+  .Section4 .sc4 {
+    margin: 7px; }
+  .Section4 .cont4-1 {
+    background-image: url("C:/Users/User/Desktop/Индивидуальный проект/img/1434.jpg");
+    background-repeat: no-repeat;
+    background-size: 300px 420px; }
+    .Section4 .cont4-1 a {
+      text-decoration: none; }
+    .Section4 .cont4-1 .cont4-1-icon {
+      margin-top: 170px;
+      width: 50px;
+      height: 50px;
+      background-image: url("C:/Users/User/Desktop/Индивидуальный проект/fon-icon/icons8-youtube-94.png");
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .Section4 .cont4-1 .cont4-1-text {
+      color: white;
+      text-transform: uppercase; }
+    .Section4 .cont4-1 .share {
+      color: white; }
+      .Section4 .cont4-1 .share .icon-sh2 {
+        color: white;
+        float: right; }
