@@ -951,3 +951,525 @@ height: 450px;
    }
    
    }
+
+/*=========Section №9==========*/
+
+.Section9{
+   width: 100%;
+   height: 530px;
+   background-image:url("C:/Users/User/Desktop/Индивидуальный проект/img/59a1356d10f29543ee1fa003ef55c8c4.jpg");
+      background-blend-mode: multiply;
+      background-repeat:no-repeat;
+      background-size:cover;
+   .sec9-desc{
+      padding-left: 10px;
+      padding-top: 25px;
+      display: flex;
+      h1{
+         font-size: 30px;
+         font-weight: 700;
+         text-transform: uppercase;
+         color:white;
+      }
+      span{
+         text-transform: uppercase;
+         margin-left: 30px;
+         padding-top: 10px;
+         font-weight: 700;
+         font-size: 15px;
+         color:white;
+      }
+   }
+   .owl-carousel{
+      width: 100%;
+      height: 500px;
+      padding-top: 20px;
+      .item{
+         background-color:white;
+         border-radius:10px;
+         height: 350px;
+         width: 250px;
+         overflow: hidden;
+         &:hover {
+            cursor: pointer;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19),
+              0 6px 20px 0 rgba(9, 34, 253, 0.19);
+            transition: all 0.5s;
+          }
+      }
+
+      //#1
+      .sc1-desc{
+         & a{
+            text-decoration: none;
+            color:black;
+         }
+         .sc1-desc-img{
+            width: 100%;
+            height: 200px;
+            background-image:url("C:/Users/User/Desktop/Индивидуальный проект/img/man-utd-21-22-long-sleeve-home-shirt-front.jpg");
+            background-repeat:no-repeat;
+            background-size:cover;
+         }
+         .sc1-desc-text{
+            padding: 0 10px 0 10px;
+            text-align: center;
+            margin-top: 20px;
+         }
+         .sc1-desc-button{
+            padding-top: 7px;
+            text-align: center;
+            margin: 0 auto;
+            margin-top: 20px;
+            width: 120px;
+            height: 40px;
+            border: 0.5px solid gray;
+            border-radius: 20px;
+            text-transform: uppercase;
+            font-weight: 500;
+            transition: all 0.8s;
+            &:hover{
+               background-color: rgb(184, 180, 180);
+               transition: all 0.8s;
+            }
+         }
+      }
+
+ //#2
+ .sc2-desc{
+   & a{
+      text-decoration: none;
+      color:black;
+   }
+   .sc2-desc-img{
+      width: 100%;
+      height: 200px;
+      background-image:url("C:/Users/User/Desktop/Индивидуальный проект/img/manchester-united-home-authentic-shirt-2021-22-with-ronaldo-7-printing_ss4_p-12093041+pv-2+u-v9lvbdd0myghid4qkgl0+v-4685241eae0b4da3b868cd5b8c71fa68.jpg");
+      background-repeat:no-repeat;
+      background-size:cover;
+   }
+   .sc2-desc-text{
+      padding: 0 10px 0 10px;
+      text-align: center;
+      margin-top: 10px;
+   }
+   .sc2-desc-button{
+      padding-top: 7px;
+      text-align: center;
+      margin: 0 auto;
+      margin-top: 10px;
+      width: 120px;
+      height: 40px;
+      border: 0.5px solid gray;
+      border-radius: 20px;
+      text-transform: uppercase;
+      font-weight: 500;
+      transition: all 0.8s;
+      &:hover{
+         background-color: rgb(184, 180, 180);
+         transition: all 0.8s;
+      }
+   }
+}
+
+//#3
+.sc3-desc{
+   & a{
+      text-decoration: none;
+      color:black;
+   }
+   .sc3-desc-img{
+      width: 100%;
+      height: 200px;
+      background-image:url("C:/Users/User/Desktop/Индивидуальный проект/img/adidas-manchester-united-trikot-away-21-22-weiss-b-gm4621-flock-fan-shop_front.jpg");
+      background-repeat:no-repeat;
+      background-size:cover;
+   }
+   .sc3-desc-text{
+      padding: 0 10px 0 10px;
+      text-align: center;
+      margin-top: 20px;
+   }
+   .sc3-desc-button{
+      padding-top: 7px;
+      text-align: center;
+      margin: 0 auto;
+      margin-top: 20px;
+      width: 120px;
+      height: 40px;
+      border: 0.5px solid gray;
+      border-radius: 20px;
+      text-transform: uppercase;
+      font-weight: 500;
+      transition: all 0.8s;
+      &:hover{
+         background-color: rgb(184, 180, 180);
+         transition: all 0.8s;
+      }
+   }
+}
+
+//#4
+.sc4-desc{
+   & a{
+      text-decoration: none;
+      color:black;
+   }
+   .sc4-desc-img{
+      width: 100%;
+      height: 200px;
+      background-image:url("C:/Users/User/Desktop/Индивидуальный проект/img/c23e1a1e7c3a.jpg");
+      background-repeat:no-repeat;
+      background-size:cover;
+   }
+   .sc4-desc-text{
+      padding: 0 10px 0 10px;
+      text-align: center;
+      margin-top: 10px;
+   }
+   .sc4-desc-button{
+      padding-top: 7px;
+      text-align: center;
+      margin: 0 auto;
+      margin-top: 10px;
+      width: 120px;
+      height: 40px;
+      border: 0.5px solid gray;
+      border-radius: 20px;
+      text-transform: uppercase;
+      font-weight: 500;
+      transition: all 0.8s;
+      &:hover{
+         background-color: rgb(184, 180, 180);
+         transition: all 0.8s;
+      }
+   }
+}
+
+//#5
+.sc5-desc{
+   & a{
+      text-decoration: none;
+      color:black;
+   }
+   .sc5-desc-img{
+      width: 100%;
+      height: 200px;
+      background-image:url("C:/Users/User/Desktop/Индивидуальный проект/img/man_prz_d_3_4_2_1_1.jpg");
+      background-repeat:no-repeat;
+      background-size:cover;
+   }
+   .sc5-desc-text{
+      padding: 0 10px 0 10px;
+      text-align: center;
+      margin-top: 20px;
+   }
+   .sc5-desc-button{
+      padding-top: 7px;
+      text-align: center;
+      margin: 0 auto;
+      margin-top: 20px;
+      width: 120px;
+      height: 40px;
+      border: 0.5px solid gray;
+      border-radius: 20px;
+      text-transform: uppercase;
+      font-weight: 500;
+      transition: all 0.8s;
+      &:hover{
+         background-color: rgb(184, 180, 180);
+         transition: all 0.8s;
+      }
+   }
+}
+
+//#6
+.sc6-desc{
+   & a{
+      text-decoration: none;
+      color:black;
+   }
+   .sc6-desc-img{
+      width: 100%;
+      height: 200px;
+      background-image:url("C:/Users/User/Desktop/Индивидуальный проект/img/manchester-united-cup-home-shirt-2021-22-kids-with-rashford-10-printing_ss4_p-12075858+pv-2+u-13ibzilnnt3gxyt0aosw+v-154977bc38b246b685ed104871111ede.jpg");
+      background-repeat:no-repeat;
+      background-size:cover;
+   }
+   .sc6-desc-text{
+      padding: 0 10px 0 10px;
+      text-align: center;
+      margin-top: 10px;
+   }
+   .sc6-desc-button{
+      padding-top: 7px;
+      text-align: center;
+      margin: 0 auto;
+      margin-top: 10px;
+      width: 120px;
+      height: 40px;
+      border: 0.5px solid gray;
+      border-radius: 20px;
+      text-transform: uppercase;
+      font-weight: 500;
+      transition: all 0.8s;
+      &:hover{
+         background-color: rgb(184, 180, 180);
+         transition: all 0.8s;
+      }
+   }
+}
+
+//#7
+.sc7-desc{
+   & a{
+      text-decoration: none;
+      color:black;
+   }
+   .sc7-desc-img{
+      width: 100%;
+      height: 200px;
+      background-image:url("C:/Users/User/Desktop/Индивидуальный проект/img/37840018_l.jpg");
+      background-repeat:no-repeat;
+      background-size:cover;
+   }
+   .sc7-desc-text{
+      padding: 0 10px 0 10px;
+      text-align: center;
+      margin-top: 20px;
+   }
+   .sc7-desc-button{
+      padding-top: 7px;
+      text-align: center;
+      margin: 0 auto;
+      margin-top: 20px;
+      width: 120px;
+      height: 40px;
+      border: 0.5px solid gray;
+      border-radius: 20px;
+      text-transform: uppercase;
+      font-weight: 500;
+      transition: all 0.8s;
+      &:hover{
+         background-color: rgb(184, 180, 180);
+         transition: all 0.8s;
+      }
+   }
+}
+
+//#8
+.sc8-desc{
+   & a{
+      text-decoration: none;
+      color:black;
+   }
+   .sc8-desc-img{
+      width: 100%;
+      height: 200px;
+      background-image:url("C:/Users/User/Desktop/Индивидуальный проект/img/manchester-united-home-shirt-2021-22-with-bfernandes-18-printing_ss4_p-12075114+u-1bpbdrqcosuw29h6lq3m+v-c0d7c7c7e4ed462186430ba879489593.jpg");
+      background-repeat:no-repeat;
+      background-size:cover;
+   }
+   .sc8-desc-text{
+      padding: 0 10px 0 10px;
+      text-align: center;
+      margin-top: 10px;
+   }
+   .sc8-desc-button{
+      padding-top: 7px;
+      text-align: center;
+      margin: 0 auto;
+      margin-top: 10px;
+      width: 120px;
+      height: 40px;
+      border: 0.5px solid gray;
+      border-radius: 20px;
+      text-transform: uppercase;
+      font-weight: 500;
+      transition: all 0.8s;
+      &:hover{
+         background-color: rgb(184, 180, 180);
+         transition: all 0.8s;
+      }
+   }
+}
+    
+.owl-prev{
+         width: 50px;
+         height: 50px;
+         background-color:white !important;
+         transition: all 0.5s;
+         &:hover{
+            transition: all 0.5s;
+            background-color:gray !important;
+            color:black !important;
+         }
+         & span{
+           font-size: 35px; 
+         }
+      }
+      .owl-next{
+         width: 50px;
+         height: 50px;
+         background-color:white !important;
+         transition: all 0.5s;
+         &:hover{
+            transition: all 0.5s;
+            background-color:gray !important;
+            color:black !important;
+         }
+         & span{
+           font-size: 35px; 
+         }
+      }
+   }
+}
+
+/*=========Section №10==========*/
+.fonts {
+   width: 100%;
+   height: 400px;
+   background-color: rgb(250, 250, 250);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 10px 0;
+   flex-flow: wrap column;
+   .fonts_1 {
+     display: flex;
+     margin-top: 20px;
+     justify-content: center;
+     align-items: center;
+     a {
+       margin: 20px 25px 0 0;
+     }
+   }
+   .fonts_2 {
+     display: flex;
+     margin-top: 20px;
+     justify-content: center;
+     align-items: center;
+     a {
+       margin: 20px 25px 0 0;
+     }
+   }
+   .fonts_3 {
+     display: flex;
+     margin-top: 20px;
+     margin-bottom:20px;
+     justify-content: center;
+     align-items: center;
+     a {
+       margin: 20px 25px 0 0;
+     }
+   }
+ }
+
+ /*=========Footer==========*/
+ .footer {
+   width: 100%;
+   height: 150px;
+   background-color: rgb(37, 37, 37);
+   .foot_icon1 {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 60px 0 0 -0;
+     margin: 0 0 0 -20px;
+     & a{
+        text-decoration: none;
+     }
+     .foot_icon {
+       width: 40px;
+       height: 40px;
+       border-radius: 20px;
+       background-color: rgb(82, 82, 82);
+       margin: 8px;
+       &:hover {
+         background-color: red;
+       }
+       a {
+          background-image:url("");
+         font-size: 20px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         color: rgb(255, 255, 255);
+         margin: 10px 0 0 0;
+       }
+     }
+     .foot_button1{
+ width: 110px;
+ height: 50px;
+ border-radius: 30px;
+ background-color: rgb(37, 37, 37);
+ color: wheat;
+ border:1px solid gray;
+ display:flex;
+ justify-content: center;
+ align-items: center;
+ text-transform: uppercase;
+ font-family: sans-serif;
+ font-weight: 700;
+ font-size: 15px;
+ margin: 0 0 0 40px;
+ transition: all 0.5s;
+ &:hover{
+ background-color: rgb(75, 75, 75);
+ }
+     }
+     .foot_button2{
+       width: 110px;
+       height: 50px;
+       border-radius: 30px;
+       background-color: rgb(197, 5, 5);
+       color: wheat;
+       display:flex;
+       justify-content: center;
+       align-items: center;
+       text-transform: uppercase;
+       font-family: sans-serif;
+       font-weight: 700;
+       font-size: 15px;
+       transition: all 0.5s;
+       margin: 0 0 0 8px;
+       &:hover{
+         background-color: rgb(153, 0, 0);
+         }
+     }
+   }
+ }
+ .footer_bottom {
+   width: 100%;
+   height: 50px;
+   background-color: rgb(27, 27, 27);
+   bottom: 0px;
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   border-top: 1px solid gray;
+   & a{
+      text-decoration: none;
+   }
+   .element {
+     margin: 0 10px;
+     a {
+       color: wheat;
+       font-size: 15px;
+       font-family: sans-serif;
+       &:hover {
+         text-decoration: underline;
+       }
+     }
+   }
+   .element1 {
+     margin: 0 0 0 50px;
+     color: rgb(139, 139, 139);
+     font-size: 15px;
+     font-family: sans-serif;
+     img {
+       color: rgb(139, 139, 139);
+     }
+   }
+ }
+ 

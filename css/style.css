@@ -794,3 +794,519 @@ body {
             -webkit-transition: all 0.8s;
             -o-transition: all 0.8s;
             transition: all 0.8s; }
+
+/*=========Section №9==========*/
+.Section9 {
+  width: 100%;
+  height: 530px;
+  background-image: url("C:/Users/User/Desktop/Индивидуальный проект/img/59a1356d10f29543ee1fa003ef55c8c4.jpg");
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .Section9 .sec9-desc {
+    padding-left: 10px;
+    padding-top: 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .Section9 .sec9-desc h1 {
+      font-size: 30px;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: white; }
+    .Section9 .sec9-desc span {
+      text-transform: uppercase;
+      margin-left: 30px;
+      padding-top: 10px;
+      font-weight: 700;
+      font-size: 15px;
+      color: white; }
+  .Section9 .owl-carousel {
+    width: 100%;
+    height: 500px;
+    padding-top: 20px; }
+    .Section9 .owl-carousel .item {
+      background-color: white;
+      border-radius: 10px;
+      height: 350px;
+      width: 250px;
+      overflow: hidden; }
+      .Section9 .owl-carousel .item:hover {
+        cursor: pointer;
+        -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(9, 34, 253, 0.19);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(9, 34, 253, 0.19);
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s; }
+    .Section9 .owl-carousel .sc1-desc a {
+      text-decoration: none;
+      color: black; }
+    .Section9 .owl-carousel .sc1-desc .sc1-desc-img {
+      width: 100%;
+      height: 200px;
+      background-image: url("C:/Users/User/Desktop/Индивидуальный проект/img/man-utd-21-22-long-sleeve-home-shirt-front.jpg");
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .Section9 .owl-carousel .sc1-desc .sc1-desc-text {
+      padding: 0 10px 0 10px;
+      text-align: center;
+      margin-top: 20px; }
+    .Section9 .owl-carousel .sc1-desc .sc1-desc-button {
+      padding-top: 7px;
+      text-align: center;
+      margin: 0 auto;
+      margin-top: 20px;
+      width: 120px;
+      height: 40px;
+      border: 0.5px solid gray;
+      border-radius: 20px;
+      text-transform: uppercase;
+      font-weight: 500;
+      -webkit-transition: all 0.8s;
+      -o-transition: all 0.8s;
+      transition: all 0.8s; }
+      .Section9 .owl-carousel .sc1-desc .sc1-desc-button:hover {
+        background-color: #b8b4b4;
+        -webkit-transition: all 0.8s;
+        -o-transition: all 0.8s;
+        transition: all 0.8s; }
+    .Section9 .owl-carousel .sc2-desc a {
+      text-decoration: none;
+      color: black; }
+    .Section9 .owl-carousel .sc2-desc .sc2-desc-img {
+      width: 100%;
+      height: 200px;
+      background-image: url("C:/Users/User/Desktop/Индивидуальный проект/img/manchester-united-home-authentic-shirt-2021-22-with-ronaldo-7-printing_ss4_p-12093041+pv-2+u-v9lvbdd0myghid4qkgl0+v-4685241eae0b4da3b868cd5b8c71fa68.jpg");
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .Section9 .owl-carousel .sc2-desc .sc2-desc-text {
+      padding: 0 10px 0 10px;
+      text-align: center;
+      margin-top: 10px; }
+    .Section9 .owl-carousel .sc2-desc .sc2-desc-button {
+      padding-top: 7px;
+      text-align: center;
+      margin: 0 auto;
+      margin-top: 10px;
+      width: 120px;
+      height: 40px;
+      border: 0.5px solid gray;
+      border-radius: 20px;
+      text-transform: uppercase;
+      font-weight: 500;
+      -webkit-transition: all 0.8s;
+      -o-transition: all 0.8s;
+      transition: all 0.8s; }
+      .Section9 .owl-carousel .sc2-desc .sc2-desc-button:hover {
+        background-color: #b8b4b4;
+        -webkit-transition: all 0.8s;
+        -o-transition: all 0.8s;
+        transition: all 0.8s; }
+    .Section9 .owl-carousel .sc3-desc a {
+      text-decoration: none;
+      color: black; }
+    .Section9 .owl-carousel .sc3-desc .sc3-desc-img {
+      width: 100%;
+      height: 200px;
+      background-image: url("C:/Users/User/Desktop/Индивидуальный проект/img/adidas-manchester-united-trikot-away-21-22-weiss-b-gm4621-flock-fan-shop_front.jpg");
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .Section9 .owl-carousel .sc3-desc .sc3-desc-text {
+      padding: 0 10px 0 10px;
+      text-align: center;
+      margin-top: 20px; }
+    .Section9 .owl-carousel .sc3-desc .sc3-desc-button {
+      padding-top: 7px;
+      text-align: center;
+      margin: 0 auto;
+      margin-top: 20px;
+      width: 120px;
+      height: 40px;
+      border: 0.5px solid gray;
+      border-radius: 20px;
+      text-transform: uppercase;
+      font-weight: 500;
+      -webkit-transition: all 0.8s;
+      -o-transition: all 0.8s;
+      transition: all 0.8s; }
+      .Section9 .owl-carousel .sc3-desc .sc3-desc-button:hover {
+        background-color: #b8b4b4;
+        -webkit-transition: all 0.8s;
+        -o-transition: all 0.8s;
+        transition: all 0.8s; }
+    .Section9 .owl-carousel .sc4-desc a {
+      text-decoration: none;
+      color: black; }
+    .Section9 .owl-carousel .sc4-desc .sc4-desc-img {
+      width: 100%;
+      height: 200px;
+      background-image: url("C:/Users/User/Desktop/Индивидуальный проект/img/c23e1a1e7c3a.jpg");
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .Section9 .owl-carousel .sc4-desc .sc4-desc-text {
+      padding: 0 10px 0 10px;
+      text-align: center;
+      margin-top: 10px; }
+    .Section9 .owl-carousel .sc4-desc .sc4-desc-button {
+      padding-top: 7px;
+      text-align: center;
+      margin: 0 auto;
+      margin-top: 10px;
+      width: 120px;
+      height: 40px;
+      border: 0.5px solid gray;
+      border-radius: 20px;
+      text-transform: uppercase;
+      font-weight: 500;
+      -webkit-transition: all 0.8s;
+      -o-transition: all 0.8s;
+      transition: all 0.8s; }
+      .Section9 .owl-carousel .sc4-desc .sc4-desc-button:hover {
+        background-color: #b8b4b4;
+        -webkit-transition: all 0.8s;
+        -o-transition: all 0.8s;
+        transition: all 0.8s; }
+    .Section9 .owl-carousel .sc5-desc a {
+      text-decoration: none;
+      color: black; }
+    .Section9 .owl-carousel .sc5-desc .sc5-desc-img {
+      width: 100%;
+      height: 200px;
+      background-image: url("C:/Users/User/Desktop/Индивидуальный проект/img/man_prz_d_3_4_2_1_1.jpg");
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .Section9 .owl-carousel .sc5-desc .sc5-desc-text {
+      padding: 0 10px 0 10px;
+      text-align: center;
+      margin-top: 20px; }
+    .Section9 .owl-carousel .sc5-desc .sc5-desc-button {
+      padding-top: 7px;
+      text-align: center;
+      margin: 0 auto;
+      margin-top: 20px;
+      width: 120px;
+      height: 40px;
+      border: 0.5px solid gray;
+      border-radius: 20px;
+      text-transform: uppercase;
+      font-weight: 500;
+      -webkit-transition: all 0.8s;
+      -o-transition: all 0.8s;
+      transition: all 0.8s; }
+      .Section9 .owl-carousel .sc5-desc .sc5-desc-button:hover {
+        background-color: #b8b4b4;
+        -webkit-transition: all 0.8s;
+        -o-transition: all 0.8s;
+        transition: all 0.8s; }
+    .Section9 .owl-carousel .sc6-desc a {
+      text-decoration: none;
+      color: black; }
+    .Section9 .owl-carousel .sc6-desc .sc6-desc-img {
+      width: 100%;
+      height: 200px;
+      background-image: url("C:/Users/User/Desktop/Индивидуальный проект/img/manchester-united-cup-home-shirt-2021-22-kids-with-rashford-10-printing_ss4_p-12075858+pv-2+u-13ibzilnnt3gxyt0aosw+v-154977bc38b246b685ed104871111ede.jpg");
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .Section9 .owl-carousel .sc6-desc .sc6-desc-text {
+      padding: 0 10px 0 10px;
+      text-align: center;
+      margin-top: 10px; }
+    .Section9 .owl-carousel .sc6-desc .sc6-desc-button {
+      padding-top: 7px;
+      text-align: center;
+      margin: 0 auto;
+      margin-top: 10px;
+      width: 120px;
+      height: 40px;
+      border: 0.5px solid gray;
+      border-radius: 20px;
+      text-transform: uppercase;
+      font-weight: 500;
+      -webkit-transition: all 0.8s;
+      -o-transition: all 0.8s;
+      transition: all 0.8s; }
+      .Section9 .owl-carousel .sc6-desc .sc6-desc-button:hover {
+        background-color: #b8b4b4;
+        -webkit-transition: all 0.8s;
+        -o-transition: all 0.8s;
+        transition: all 0.8s; }
+    .Section9 .owl-carousel .sc7-desc a {
+      text-decoration: none;
+      color: black; }
+    .Section9 .owl-carousel .sc7-desc .sc7-desc-img {
+      width: 100%;
+      height: 200px;
+      background-image: url("C:/Users/User/Desktop/Индивидуальный проект/img/37840018_l.jpg");
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .Section9 .owl-carousel .sc7-desc .sc7-desc-text {
+      padding: 0 10px 0 10px;
+      text-align: center;
+      margin-top: 20px; }
+    .Section9 .owl-carousel .sc7-desc .sc7-desc-button {
+      padding-top: 7px;
+      text-align: center;
+      margin: 0 auto;
+      margin-top: 20px;
+      width: 120px;
+      height: 40px;
+      border: 0.5px solid gray;
+      border-radius: 20px;
+      text-transform: uppercase;
+      font-weight: 500;
+      -webkit-transition: all 0.8s;
+      -o-transition: all 0.8s;
+      transition: all 0.8s; }
+      .Section9 .owl-carousel .sc7-desc .sc7-desc-button:hover {
+        background-color: #b8b4b4;
+        -webkit-transition: all 0.8s;
+        -o-transition: all 0.8s;
+        transition: all 0.8s; }
+    .Section9 .owl-carousel .sc8-desc a {
+      text-decoration: none;
+      color: black; }
+    .Section9 .owl-carousel .sc8-desc .sc8-desc-img {
+      width: 100%;
+      height: 200px;
+      background-image: url("C:/Users/User/Desktop/Индивидуальный проект/img/manchester-united-home-shirt-2021-22-with-bfernandes-18-printing_ss4_p-12075114+u-1bpbdrqcosuw29h6lq3m+v-c0d7c7c7e4ed462186430ba879489593.jpg");
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .Section9 .owl-carousel .sc8-desc .sc8-desc-text {
+      padding: 0 10px 0 10px;
+      text-align: center;
+      margin-top: 10px; }
+    .Section9 .owl-carousel .sc8-desc .sc8-desc-button {
+      padding-top: 7px;
+      text-align: center;
+      margin: 0 auto;
+      margin-top: 10px;
+      width: 120px;
+      height: 40px;
+      border: 0.5px solid gray;
+      border-radius: 20px;
+      text-transform: uppercase;
+      font-weight: 500;
+      -webkit-transition: all 0.8s;
+      -o-transition: all 0.8s;
+      transition: all 0.8s; }
+      .Section9 .owl-carousel .sc8-desc .sc8-desc-button:hover {
+        background-color: #b8b4b4;
+        -webkit-transition: all 0.8s;
+        -o-transition: all 0.8s;
+        transition: all 0.8s; }
+    .Section9 .owl-carousel .owl-prev {
+      width: 50px;
+      height: 50px;
+      background-color: white !important;
+      -webkit-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s; }
+      .Section9 .owl-carousel .owl-prev:hover {
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s;
+        background-color: gray !important;
+        color: black !important; }
+      .Section9 .owl-carousel .owl-prev span {
+        font-size: 35px; }
+    .Section9 .owl-carousel .owl-next {
+      width: 50px;
+      height: 50px;
+      background-color: white !important;
+      -webkit-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s; }
+      .Section9 .owl-carousel .owl-next:hover {
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s;
+        background-color: gray !important;
+        color: black !important; }
+      .Section9 .owl-carousel .owl-next span {
+        font-size: 35px; }
+
+/*=========Section №10==========*/
+.fonts {
+  width: 100%;
+  height: 400px;
+  background-color: #fafafa;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 10px 0;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: wrap column;
+  flex-flow: wrap column; }
+  .fonts .fonts_1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 20px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .fonts .fonts_1 a {
+      margin: 20px 25px 0 0; }
+  .fonts .fonts_2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 20px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .fonts .fonts_2 a {
+      margin: 20px 25px 0 0; }
+  .fonts .fonts_3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .fonts .fonts_3 a {
+      margin: 20px 25px 0 0; }
+
+/*=========Footer==========*/
+.footer {
+  width: 100%;
+  height: 150px;
+  background-color: #252525; }
+  .footer .foot_icon1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 60px 0 0 -0;
+    margin: 0 0 0 -20px; }
+    .footer .foot_icon1 a {
+      text-decoration: none; }
+    .footer .foot_icon1 .foot_icon {
+      width: 40px;
+      height: 40px;
+      border-radius: 20px;
+      background-color: #525252;
+      margin: 8px; }
+      .footer .foot_icon1 .foot_icon:hover {
+        background-color: red; }
+      .footer .foot_icon1 .foot_icon a {
+        background-image: url("");
+        font-size: 20px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        color: white;
+        margin: 10px 0 0 0; }
+    .footer .foot_icon1 .foot_button1 {
+      width: 110px;
+      height: 50px;
+      border-radius: 30px;
+      background-color: #252525;
+      color: wheat;
+      border: 1px solid gray;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      text-transform: uppercase;
+      font-family: sans-serif;
+      font-weight: 700;
+      font-size: 15px;
+      margin: 0 0 0 40px;
+      -webkit-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s; }
+      .footer .foot_icon1 .foot_button1:hover {
+        background-color: #4b4b4b; }
+    .footer .foot_icon1 .foot_button2 {
+      width: 110px;
+      height: 50px;
+      border-radius: 30px;
+      background-color: #c50505;
+      color: wheat;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      text-transform: uppercase;
+      font-family: sans-serif;
+      font-weight: 700;
+      font-size: 15px;
+      -webkit-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s;
+      margin: 0 0 0 8px; }
+      .footer .foot_icon1 .foot_button2:hover {
+        background-color: #990000; }
+
+.footer_bottom {
+  width: 100%;
+  height: 50px;
+  background-color: #1b1b1b;
+  bottom: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-top: 1px solid gray; }
+  .footer_bottom a {
+    text-decoration: none; }
+  .footer_bottom .element {
+    margin: 0 10px; }
+    .footer_bottom .element a {
+      color: wheat;
+      font-size: 15px;
+      font-family: sans-serif; }
+      .footer_bottom .element a:hover {
+        text-decoration: underline; }
+  .footer_bottom .element1 {
+    margin: 0 0 0 50px;
+    color: #8b8b8b;
+    font-size: 15px;
+    font-family: sans-serif; }
+    .footer_bottom .element1 img {
+      color: #8b8b8b; }
