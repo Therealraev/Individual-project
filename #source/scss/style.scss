@@ -409,9 +409,9 @@ text-transform: uppercase;
 /*-----section#3----*/
 .Section3{
 
-   padding: 0 45px 25px 45px;
+   padding: 0 45px 0 45px;
    width: 100%;
-   height: 400px;
+   height: 370px;
 
 
    .contsection3-1{
@@ -500,9 +500,9 @@ text-transform: uppercase;
 
 /*-----section#4----*/
 .Section4{
-   padding: 0 45px 25px 45px;
+   padding: 0 45px 25px 60px;
 width: 100%;
-height: 440px;
+height: 450px;
 
 .sc4{
    margin: 7px;
@@ -511,15 +511,17 @@ height: 440px;
 .cont4-1{
    @extend %animate;
    @extend %sec-2-cont;
-      background-image:url("C:/Users/User/Desktop/Индивидуальный проект/img/1434.jpg");
+   height: 410px;
+   width: 290px;
+      background-image:url("C:/Users/User/Desktop/Индивидуальный проект/img/f0c270d6-d6fe-4e4a-b423-b1dcdabbda52.jpg");
       background-repeat:no-repeat;
-      background-size:300px 420px;
+      background-size:cover;
       & a{
          text-decoration:none;
       }
 
       .cont4-1-icon{
-         margin-top: 170px;
+         margin-top: 155px;
          width: 50px;
          height: 50px;
          background-image: url('C:/Users/User/Desktop/Индивидуальный проект/fon-icon/icons8-youtube-94.png');
@@ -528,6 +530,9 @@ height: 440px;
       }
 
       .cont4-1-text{
+      & h1{
+         font-size: 27px;
+      }
       color:white;
       text-transform: uppercase;
       
@@ -542,13 +547,407 @@ height: 440px;
    }
 
 }
+//#2
 .cont4-2{
+   @extend %animate;
    @extend %sec-2-cont;
+   height: 410px;
+   width: 290px;
+      background-image:url("C:/Users/User/Desktop/Индивидуальный проект/img/0_Manchester-United-versus-Celtic-October-2008.jpg");
+      background-repeat:no-repeat;
+      background-size:cover;
+      & a{
+         text-decoration:none;
+      }
+
+      .cont4-2-icon{
+         margin-top: 170px;
+         width: 50px;
+         height: 50px;
+         background-image: url('C:/Users/User/Desktop/Индивидуальный проект/fon-icon/icons8-youtube-94.png');
+         background-repeat: no-repeat;
+         background-size:cover;
+      }
+
+      .cont4-2-text{
+      & h1{
+         font-size: 28px;
+      }
+      color:white;
+      text-transform: uppercase;
+      
+   }
+   .share{
+      margin-top: 20px;
+      color:white;
+      .icon-sh2{
+         color:white;
+         float: right;
+      }
+   }
 }
+//#3
 .cont4-3{
+   @extend %animate;
    @extend %sec-2-cont;
+   height: 410px;
+   width: 290px;
+      background-image:url("C:/Users/User/Desktop/Индивидуальный проект/img/1_GettyImages-1288517706.jpg");
+      background-repeat:no-repeat;
+      background-size:cover;
+      & a{
+         text-decoration:none;
+      }
+
+      .cont4-3-icon{
+         margin-top: 170px;
+         width: 50px;
+         height: 50px;
+         background-image: url('C:/Users/User/Desktop/Индивидуальный проект/fon-icon/icons8-youtube-94.png');
+         background-repeat: no-repeat;
+         background-size:cover;
+      }
+
+      .cont4-3-text{
+      & h1{
+         font-size: 27px;
+      }
+      color:white;
+      text-transform: uppercase;
+      
+   }
+   .share{
+ margin-top: 25px;
+      color:white;
+      .icon-sh2{
+         color:white;
+         float: right;
+      }
+   }
 }
+//#4
 .cont4-4{
+   @extend %animate;
    @extend %sec-2-cont;
+   height: 410px;
+   width: 290px;
+      background-image:url("C:/Users/User/Desktop/Индивидуальный проект/img/IMG_8970_20210911350226611631379599463_large.jpg");
+      background-repeat:no-repeat;
+      background-size:cover;
+      & a{
+         text-decoration:none;
+      }
+
+      .cont4-4-icon{
+         margin-top: 170px;
+         width: 50px;
+         height: 50px;
+         background-image: url('C:/Users/User/Desktop/Индивидуальный проект/fon-icon/icons8-youtube-94.png');
+         background-repeat: no-repeat;
+         background-size:cover;
+      }
+
+      .cont4-4-text{
+      & h1{
+         font-size: 27px;
+      }
+      color:white;
+      text-transform: uppercase;
+      
+   }
+   .share{
+ margin-top: 25px;
+      color:white;
+      .icon-sh2{
+         color:white;
+         float: right;
+      }
+   }
 }
 }
+
+/*-----section#5----*/
+
+.Section5{
+   @extend %animate;
+   width: 100%;
+   height: 600px;
+   background-color:white;
+   background-image:url("C:/Users/User/Desktop/Индивидуальный проект/img/SAF_Birthday-Wayin-Header_v3.jpg");
+   background-repeat:no-repeat;
+   background-size:100% 590px;
+   .sect5-text{
+      padding-top: 480px;
+      & h1{
+         font-size: 50px;
+         color:white;
+         text-transform: uppercase;
+         font-weight: 700;
+      }
+   }
+}
+
+/*-----section#6----*/
+.section6{
+width: 100%;
+height: 450px;
+.img-fixed{
+   width: 100%;
+   height: 100%;
+   background-image:url("C:/Users/User/Desktop/Индивидуальный проект/img/header6.jpg");
+   background-repeat:no-repeat;
+   background-size:cover;
+   background-attachment: fixed;
+}
+}
+
+/*-----section#7----*/
+.Section7{
+
+   padding: 0 45px 0 45px;
+   width: 100%;
+   height: 370px;
+
+
+   .contsection7-1{
+      @extend %animate;
+      .animate{
+         margin-top: 130px;
+      }
+      .contsection7-1-icon{
+        
+         width: 50px;
+         height: 50px;
+         background-image: url('C:/Users/User/Desktop/Индивидуальный проект/fon-icon/icons8-youtube-94.png');
+         background-repeat: no-repeat;
+         background-size:cover;
+         transition: all 0.5s;
+      }
+      & a{
+         color:white;
+         text-decoration: none;
+         text-transform: uppercase;
+      }
+      width: 600px;
+      height: 340px;
+      background-image:url("C:/Users/User/Desktop/Индивидуальный проект/img/greenwoodA94T6822_20210418510102731640806170462_large.jpg");
+      background-repeat:no-repeat;
+      background-size:cover;
+      border-radius: 10px;
+      &:hover {
+         cursor: pointer;
+         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19),
+           0 6px 20px 0 rgba(9, 34, 253, 0.19);
+         transition: all 0.5s;
+       }
+       .share{
+          color:white;
+          margin-top: 25px;
+         .icon-sh2{
+            float: right;
+         }
+       }
+   }
+.cs7{
+   margin: 13px;
+}
+   .contsection7-2{
+      & a{
+         color:white;
+         text-decoration: none;
+         text-transform: uppercase;
+         .contsection7-2-button{
+            width: 150px;
+            height: 50px;
+            text-align: center;
+            padding: 12px;
+            margin: 270px 0 0 10px;
+            border: 2px solid white;
+            border-radius:30px;
+            font-weight: 500;
+            transition: all 0.8s;
+            &:hover{
+               background-color: rgb(133, 132, 130);
+               transition: all 0.8s;
+            }
+         }
+      }
+      width: 600px;
+      height: 340px;
+      background-image:url("C:/Users/User/Desktop/Индивидуальный проект/img/Ralf.Rangnick.presser-1.jpg");
+      background-repeat:no-repeat;
+      background-size:cover;
+      border-radius: 10px;
+      &:hover {
+         cursor: pointer;
+         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19),
+           0 6px 20px 0 rgba(9, 34, 253, 0.19);
+         transition: all 0.5s;
+       }
+   }
+
+}
+
+
+/*=========Section №8==========*/
+.Section8{
+
+   padding: 0 45px 25px 63px;
+   width: 100%;
+   height: 440px;
+   
+   .cll8{
+      margin: 7px;
+   }
+   
+   .cont8-1{
+      @extend %animate;
+      @extend %sec-2-cont;
+      height: 410px;
+      width: 290px;
+         background-image:url('C:/Users/User/Desktop/Индивидуальный проект/img/adidas_original_manchester_uni_1638586479_756ba388_progressive.jpg');
+         background-repeat:no-repeat;
+         background-size:cover;
+         & a{
+            text-decoration:none;
+            color:white;
+            .cont8-1-desc{
+               margin-top: 285px;
+               text-align: center;
+               text-transform: uppercase;
+               h1{
+                  font-size: 23px;
+                  font-weight: 700;
+               }
+               .cont8-1-desc-button{
+                  margin: 0 auto;
+                  margin-top: 15px;
+                  padding:12px 5px 0 5px;
+                  width: 160px;
+                  height: 50px;
+                  border: 2px solid white;
+                  border-radius:25px;
+                  font-weight:500;
+                  transition: all 0.8s;
+                  &:hover{
+                     background-color: rgb(133, 132, 130);
+                     transition: all 0.8s;
+                  }
+               }
+            }
+         }
+   }
+   //#2
+   .cont8-2{
+      @extend %animate;
+      @extend %sec-2-cont;
+      height: 410px;
+      width: 290px;
+      .animate{
+         margin-top: -10px;
+      }
+         background-image:url("C:/Users/User/Desktop/Индивидуальный проект/img/Media_Watch_Old_Trafford_exterior_dusk_11619166772476_large.jpg");
+         background-repeat:no-repeat;
+         background-size:100% 150px;
+         & a{
+            text-decoration: none;
+         }
+      .cont8-2-desc{
+         color:black;
+         margin-top: 180px;
+         & h1{
+            font-size: 23px;
+           font-family: 'Lato', sans-serif;
+           text-transform: uppercase;
+           font-weight: 700;
+         }
+         .cont8-2-desc-text{
+            padding:5px;
+            font-size: 15px;
+         }
+      }
+      .share{
+         .icon-sh2{
+            float: right;
+         }
+         padding-top: 25px
+      }
+   }
+   //#3
+   .cont8-3{
+      @extend %animate;
+      @extend %sec-2-cont;
+      height: 410px;
+      width: 290px;
+      .animate{
+         margin-top: -10px;
+      }
+         background-image:url("C:/Users/User/Desktop/Индивидуальный проект/img/Без названия.jpg");
+         background-repeat:no-repeat;
+         background-size:100% 150px;
+         & a{
+            text-decoration: none;
+         }
+      .cont8-3-desc{
+         color:black;
+         margin-top: 180px;
+         & h1{
+            font-size: 23px;
+           font-family: 'Lato', sans-serif;
+           text-transform: uppercase;
+           font-weight: 700;
+         }
+         .cont8-3-desc-text{
+            padding:5px;
+            font-size: 15px;
+         }
+      }
+      .share{
+         .icon-sh2{
+            float: right;
+         }
+         padding-top: 3px;
+      }
+   }
+   //#4
+   .cont8-4{
+      @extend %animate;
+      @extend %sec-2-cont;
+      height: 410px;
+      width: 290px;
+     background-image:url('C:/Users/User/Desktop/Индивидуальный проект/img/tumblr_38e3f4eb7caf6cabfc128974282585c3_156f13f7_540.jpg');
+     background-size:cover;
+     background-repeat:no-repeat;
+     & a{
+      text-decoration:none;
+      color:white;
+      .cont8-4-desc{
+         margin-top: 260px;
+         text-align: center;
+         text-transform: uppercase;
+         h1{
+            font-size: 23px;
+            font-weight: 700;
+         }
+         .cont8-4-desc-button{
+            margin: 0 auto;
+            margin-top: 15px;
+            padding:12px 5px 5px 5px;
+            width: 230px;
+            height: 50px;
+            border: 2px solid white;
+            border-radius:25px;
+            font-weight:500;
+            transition: all 0.8s;
+            &:hover{
+               background-color: rgb(133, 132, 130);
+               transition: all 0.8s;
+            }
+         }
+      }
+   }
+   
+   
+   }
+   
+   }

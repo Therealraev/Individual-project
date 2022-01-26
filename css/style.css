@@ -60,13 +60,13 @@ h1, h2, h3, h4, h5, h6 {
 
 /*--------------------*/
 /*animate*/
-.section1 .cont-section:hover .animate, .Section2 .cont2-1:hover .animate, .Section2 .cont2-2:hover .animate, .Section2 .cont2-3:hover .animate, .Section2 .cont2-4:hover .animate, .Section3 .contsection3-1:hover .animate, .Section3 .contsection3-2:hover .animate, .Section4 .cont4-1:hover .animate {
+.section1 .cont-section:hover .animate, .Section2 .cont2-1:hover .animate, .Section2 .cont2-2:hover .animate, .Section2 .cont2-3:hover .animate, .Section2 .cont2-4:hover .animate, .Section3 .contsection3-1:hover .animate, .Section3 .contsection3-2:hover .animate, .Section4 .cont4-1:hover .animate, .Section4 .cont4-2:hover .animate, .Section4 .cont4-3:hover .animate, .Section4 .cont4-4:hover .animate, .Section5:hover .animate, .Section7 .contsection7-1:hover .animate, .Section8 .cont8-1:hover .animate, .Section8 .cont8-2:hover .animate, .Section8 .cont8-3:hover .animate, .Section8 .cont8-4:hover .animate {
   width: 65px;
   -webkit-transition: 1s;
   -o-transition: 1s;
   transition: 1s; }
 
-.section1 .cont-section .animate, .Section2 .cont2-1 .animate, .Section2 .cont2-2 .animate, .Section2 .cont2-3 .animate, .Section2 .cont2-4 .animate, .Section3 .contsection3-1 .animate, .Section3 .contsection3-2 .animate, .Section4 .cont4-1 .animate {
+.section1 .cont-section .animate, .Section2 .cont2-1 .animate, .Section2 .cont2-2 .animate, .Section2 .cont2-3 .animate, .Section2 .cont2-4 .animate, .Section3 .contsection3-1 .animate, .Section3 .contsection3-2 .animate, .Section4 .cont4-1 .animate, .Section4 .cont4-2 .animate, .Section4 .cont4-3 .animate, .Section4 .cont4-4 .animate, .Section5 .animate, .Section7 .contsection7-1 .animate, .Section8 .cont8-1 .animate, .Section8 .cont8-2 .animate, .Section8 .cont8-3 .animate, .Section8 .cont8-4 .animate {
   margin: 15px 0 15px 5px;
   width: 0px;
   height: 2.5px;
@@ -79,13 +79,13 @@ h1, h2, h3, h4, h5, h6 {
   margin: 15px 0 15px 0; }
 
 /*Секция№2*/
-.Section2 .cont2-1, .Section2 .cont2-2, .Section2 .cont2-3, .Section2 .cont2-4, .Section4 .cont4-1, .Section4 .cont4-2, .Section4 .cont4-3, .Section4 .cont4-4 {
+.Section2 .cont2-1, .Section2 .cont2-2, .Section2 .cont2-3, .Section2 .cont2-4, .Section4 .cont4-1, .Section4 .cont4-2, .Section4 .cont4-3, .Section4 .cont4-4, .Section8 .cont8-1, .Section8 .cont8-2, .Section8 .cont8-3, .Section8 .cont8-4 {
   width: 300px;
   height: 420px;
   background-color: white;
   border-radius: 10px;
   overflow: hidden; }
-  .Section2 .cont2-1:hover, .Section2 .cont2-2:hover, .Section2 .cont2-3:hover, .Section2 .cont2-4:hover, .Section4 .cont4-1:hover, .Section4 .cont4-2:hover, .Section4 .cont4-3:hover, .Section4 .cont4-4:hover {
+  .Section2 .cont2-1:hover, .Section2 .cont2-2:hover, .Section2 .cont2-3:hover, .Section2 .cont2-4:hover, .Section4 .cont4-1:hover, .Section4 .cont4-2:hover, .Section4 .cont4-3:hover, .Section4 .cont4-4:hover, .Section8 .cont8-1:hover, .Section8 .cont8-2:hover, .Section8 .cont8-3:hover, .Section8 .cont8-4:hover {
     cursor: pointer;
     -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(9, 34, 253, 0.19);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(9, 34, 253, 0.19);
@@ -381,9 +381,9 @@ body {
 /*-----line-----*/
 /*-----section#3----*/
 .Section3 {
-  padding: 0 45px 25px 45px;
+  padding: 0 45px 0 45px;
   width: 100%;
-  height: 400px; }
+  height: 370px; }
   .Section3 .contsection3-1 {
     width: 600px;
     height: 340px;
@@ -457,19 +457,21 @@ body {
 
 /*-----section#4----*/
 .Section4 {
-  padding: 0 45px 25px 45px;
+  padding: 0 45px 25px 60px;
   width: 100%;
-  height: 440px; }
+  height: 450px; }
   .Section4 .sc4 {
     margin: 7px; }
   .Section4 .cont4-1 {
-    background-image: url("C:/Users/User/Desktop/Индивидуальный проект/img/1434.jpg");
+    height: 410px;
+    width: 290px;
+    background-image: url("C:/Users/User/Desktop/Индивидуальный проект/img/f0c270d6-d6fe-4e4a-b423-b1dcdabbda52.jpg");
     background-repeat: no-repeat;
-    background-size: 300px 420px; }
+    background-size: cover; }
     .Section4 .cont4-1 a {
       text-decoration: none; }
     .Section4 .cont4-1 .cont4-1-icon {
-      margin-top: 170px;
+      margin-top: 155px;
       width: 50px;
       height: 50px;
       background-image: url("C:/Users/User/Desktop/Индивидуальный проект/fon-icon/icons8-youtube-94.png");
@@ -478,8 +480,317 @@ body {
     .Section4 .cont4-1 .cont4-1-text {
       color: white;
       text-transform: uppercase; }
+      .Section4 .cont4-1 .cont4-1-text h1 {
+        font-size: 27px; }
     .Section4 .cont4-1 .share {
       color: white; }
       .Section4 .cont4-1 .share .icon-sh2 {
         color: white;
         float: right; }
+  .Section4 .cont4-2 {
+    height: 410px;
+    width: 290px;
+    background-image: url("C:/Users/User/Desktop/Индивидуальный проект/img/0_Manchester-United-versus-Celtic-October-2008.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; }
+    .Section4 .cont4-2 a {
+      text-decoration: none; }
+    .Section4 .cont4-2 .cont4-2-icon {
+      margin-top: 170px;
+      width: 50px;
+      height: 50px;
+      background-image: url("C:/Users/User/Desktop/Индивидуальный проект/fon-icon/icons8-youtube-94.png");
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .Section4 .cont4-2 .cont4-2-text {
+      color: white;
+      text-transform: uppercase; }
+      .Section4 .cont4-2 .cont4-2-text h1 {
+        font-size: 28px; }
+    .Section4 .cont4-2 .share {
+      margin-top: 20px;
+      color: white; }
+      .Section4 .cont4-2 .share .icon-sh2 {
+        color: white;
+        float: right; }
+  .Section4 .cont4-3 {
+    height: 410px;
+    width: 290px;
+    background-image: url("C:/Users/User/Desktop/Индивидуальный проект/img/1_GettyImages-1288517706.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; }
+    .Section4 .cont4-3 a {
+      text-decoration: none; }
+    .Section4 .cont4-3 .cont4-3-icon {
+      margin-top: 170px;
+      width: 50px;
+      height: 50px;
+      background-image: url("C:/Users/User/Desktop/Индивидуальный проект/fon-icon/icons8-youtube-94.png");
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .Section4 .cont4-3 .cont4-3-text {
+      color: white;
+      text-transform: uppercase; }
+      .Section4 .cont4-3 .cont4-3-text h1 {
+        font-size: 27px; }
+    .Section4 .cont4-3 .share {
+      margin-top: 25px;
+      color: white; }
+      .Section4 .cont4-3 .share .icon-sh2 {
+        color: white;
+        float: right; }
+  .Section4 .cont4-4 {
+    height: 410px;
+    width: 290px;
+    background-image: url("C:/Users/User/Desktop/Индивидуальный проект/img/IMG_8970_20210911350226611631379599463_large.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; }
+    .Section4 .cont4-4 a {
+      text-decoration: none; }
+    .Section4 .cont4-4 .cont4-4-icon {
+      margin-top: 170px;
+      width: 50px;
+      height: 50px;
+      background-image: url("C:/Users/User/Desktop/Индивидуальный проект/fon-icon/icons8-youtube-94.png");
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .Section4 .cont4-4 .cont4-4-text {
+      color: white;
+      text-transform: uppercase; }
+      .Section4 .cont4-4 .cont4-4-text h1 {
+        font-size: 27px; }
+    .Section4 .cont4-4 .share {
+      margin-top: 25px;
+      color: white; }
+      .Section4 .cont4-4 .share .icon-sh2 {
+        color: white;
+        float: right; }
+
+/*-----section#5----*/
+.Section5 {
+  width: 100%;
+  height: 600px;
+  background-color: white;
+  background-image: url("C:/Users/User/Desktop/Индивидуальный проект/img/SAF_Birthday-Wayin-Header_v3.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 590px; }
+  .Section5 .sect5-text {
+    padding-top: 480px; }
+    .Section5 .sect5-text h1 {
+      font-size: 50px;
+      color: white;
+      text-transform: uppercase;
+      font-weight: 700; }
+
+/*-----section#6----*/
+.section6 {
+  width: 100%;
+  height: 450px; }
+  .section6 .img-fixed {
+    width: 100%;
+    height: 100%;
+    background-image: url("C:/Users/User/Desktop/Индивидуальный проект/img/header6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; }
+
+/*-----section#7----*/
+.Section7 {
+  padding: 0 45px 0 45px;
+  width: 100%;
+  height: 370px; }
+  .Section7 .contsection7-1 {
+    width: 600px;
+    height: 340px;
+    background-image: url("C:/Users/User/Desktop/Индивидуальный проект/img/greenwoodA94T6822_20210418510102731640806170462_large.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px; }
+    .Section7 .contsection7-1 .animate {
+      margin-top: 130px; }
+    .Section7 .contsection7-1 .contsection7-1-icon {
+      width: 50px;
+      height: 50px;
+      background-image: url("C:/Users/User/Desktop/Индивидуальный проект/fon-icon/icons8-youtube-94.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      -webkit-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s; }
+    .Section7 .contsection7-1 a {
+      color: white;
+      text-decoration: none;
+      text-transform: uppercase; }
+    .Section7 .contsection7-1:hover {
+      cursor: pointer;
+      -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(9, 34, 253, 0.19);
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(9, 34, 253, 0.19);
+      -webkit-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s; }
+    .Section7 .contsection7-1 .share {
+      color: white;
+      margin-top: 25px; }
+      .Section7 .contsection7-1 .share .icon-sh2 {
+        float: right; }
+  .Section7 .cs7 {
+    margin: 13px; }
+  .Section7 .contsection7-2 {
+    width: 600px;
+    height: 340px;
+    background-image: url("C:/Users/User/Desktop/Индивидуальный проект/img/Ralf.Rangnick.presser-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px; }
+    .Section7 .contsection7-2 a {
+      color: white;
+      text-decoration: none;
+      text-transform: uppercase; }
+      .Section7 .contsection7-2 a .contsection7-2-button {
+        width: 150px;
+        height: 50px;
+        text-align: center;
+        padding: 12px;
+        margin: 270px 0 0 10px;
+        border: 2px solid white;
+        border-radius: 30px;
+        font-weight: 500;
+        -webkit-transition: all 0.8s;
+        -o-transition: all 0.8s;
+        transition: all 0.8s; }
+        .Section7 .contsection7-2 a .contsection7-2-button:hover {
+          background-color: #858482;
+          -webkit-transition: all 0.8s;
+          -o-transition: all 0.8s;
+          transition: all 0.8s; }
+    .Section7 .contsection7-2:hover {
+      cursor: pointer;
+      -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(9, 34, 253, 0.19);
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(9, 34, 253, 0.19);
+      -webkit-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s; }
+
+/*=========Section №8==========*/
+.Section8 {
+  padding: 0 45px 25px 63px;
+  width: 100%;
+  height: 440px; }
+  .Section8 .cll8 {
+    margin: 7px; }
+  .Section8 .cont8-1 {
+    height: 410px;
+    width: 290px;
+    background-image: url("C:/Users/User/Desktop/Индивидуальный проект/img/adidas_original_manchester_uni_1638586479_756ba388_progressive.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; }
+    .Section8 .cont8-1 a {
+      text-decoration: none;
+      color: white; }
+      .Section8 .cont8-1 a .cont8-1-desc {
+        margin-top: 285px;
+        text-align: center;
+        text-transform: uppercase; }
+        .Section8 .cont8-1 a .cont8-1-desc h1 {
+          font-size: 23px;
+          font-weight: 700; }
+        .Section8 .cont8-1 a .cont8-1-desc .cont8-1-desc-button {
+          margin: 0 auto;
+          margin-top: 15px;
+          padding: 12px 5px 0 5px;
+          width: 160px;
+          height: 50px;
+          border: 2px solid white;
+          border-radius: 25px;
+          font-weight: 500;
+          -webkit-transition: all 0.8s;
+          -o-transition: all 0.8s;
+          transition: all 0.8s; }
+          .Section8 .cont8-1 a .cont8-1-desc .cont8-1-desc-button:hover {
+            background-color: #858482;
+            -webkit-transition: all 0.8s;
+            -o-transition: all 0.8s;
+            transition: all 0.8s; }
+  .Section8 .cont8-2 {
+    height: 410px;
+    width: 290px;
+    background-image: url("C:/Users/User/Desktop/Индивидуальный проект/img/Media_Watch_Old_Trafford_exterior_dusk_11619166772476_large.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 150px; }
+    .Section8 .cont8-2 .animate {
+      margin-top: -10px; }
+    .Section8 .cont8-2 a {
+      text-decoration: none; }
+    .Section8 .cont8-2 .cont8-2-desc {
+      color: black;
+      margin-top: 180px; }
+      .Section8 .cont8-2 .cont8-2-desc h1 {
+        font-size: 23px;
+        font-family: 'Lato', sans-serif;
+        text-transform: uppercase;
+        font-weight: 700; }
+      .Section8 .cont8-2 .cont8-2-desc .cont8-2-desc-text {
+        padding: 5px;
+        font-size: 15px; }
+    .Section8 .cont8-2 .share {
+      padding-top: 25px; }
+      .Section8 .cont8-2 .share .icon-sh2 {
+        float: right; }
+  .Section8 .cont8-3 {
+    height: 410px;
+    width: 290px;
+    background-image: url("C:/Users/User/Desktop/Индивидуальный проект/img/Без названия.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 150px; }
+    .Section8 .cont8-3 .animate {
+      margin-top: -10px; }
+    .Section8 .cont8-3 a {
+      text-decoration: none; }
+    .Section8 .cont8-3 .cont8-3-desc {
+      color: black;
+      margin-top: 180px; }
+      .Section8 .cont8-3 .cont8-3-desc h1 {
+        font-size: 23px;
+        font-family: 'Lato', sans-serif;
+        text-transform: uppercase;
+        font-weight: 700; }
+      .Section8 .cont8-3 .cont8-3-desc .cont8-3-desc-text {
+        padding: 5px;
+        font-size: 15px; }
+    .Section8 .cont8-3 .share {
+      padding-top: 3px; }
+      .Section8 .cont8-3 .share .icon-sh2 {
+        float: right; }
+  .Section8 .cont8-4 {
+    height: 410px;
+    width: 290px;
+    background-image: url("C:/Users/User/Desktop/Индивидуальный проект/img/tumblr_38e3f4eb7caf6cabfc128974282585c3_156f13f7_540.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; }
+    .Section8 .cont8-4 a {
+      text-decoration: none;
+      color: white; }
+      .Section8 .cont8-4 a .cont8-4-desc {
+        margin-top: 260px;
+        text-align: center;
+        text-transform: uppercase; }
+        .Section8 .cont8-4 a .cont8-4-desc h1 {
+          font-size: 23px;
+          font-weight: 700; }
+        .Section8 .cont8-4 a .cont8-4-desc .cont8-4-desc-button {
+          margin: 0 auto;
+          margin-top: 15px;
+          padding: 12px 5px 5px 5px;
+          width: 230px;
+          height: 50px;
+          border: 2px solid white;
+          border-radius: 25px;
+          font-weight: 500;
+          -webkit-transition: all 0.8s;
+          -o-transition: all 0.8s;
+          transition: all 0.8s; }
+          .Section8 .cont8-4 a .cont8-4-desc .cont8-4-desc-button:hover {
+            background-color: #858482;
+            -webkit-transition: all 0.8s;
+            -o-transition: all 0.8s;
+            transition: all 0.8s; }
