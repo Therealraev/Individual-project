@@ -1207,13 +1207,12 @@ body {
     .footer .foot_icon1 .foot_icon {
       width: 40px;
       height: 40px;
-      border-radius: 20px;
+      border-radius: 50%;
       background-color: #525252;
       margin: 8px; }
       .footer .foot_icon1 .foot_icon:hover {
         background-color: red; }
       .footer .foot_icon1 .foot_icon a {
-        background-image: url("");
         font-size: 20px;
         display: -webkit-box;
         display: -ms-flexbox;
@@ -1225,13 +1224,17 @@ body {
         -ms-flex-align: center;
         align-items: center;
         color: white;
-        margin: 10px 0 0 0; }
+        margin: 7px 0 0 0; }
+    .footer .foot_icon1 .icon-facebook {
+      margin-top: 2px; }
+    .footer .foot_icon1 .icon-twitter {
+      margin-top: 2px; }
     .footer .foot_icon1 .foot_button1 {
       width: 110px;
       height: 50px;
       border-radius: 30px;
       background-color: #252525;
-      color: wheat;
+      color: white;
       border: 1px solid gray;
       display: -webkit-box;
       display: -ms-flexbox;
@@ -1257,7 +1260,7 @@ body {
       height: 50px;
       border-radius: 30px;
       background-color: #c50505;
-      color: wheat;
+      color: white;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -1298,7 +1301,7 @@ body {
   .footer_bottom .element {
     margin: 0 10px; }
     .footer_bottom .element a {
-      color: wheat;
+      color: white;
       font-size: 15px;
       font-family: sans-serif; }
       .footer_bottom .element a:hover {
